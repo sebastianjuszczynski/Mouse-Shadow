@@ -10,7 +10,7 @@ https://sebastianjuszczynski.github.io/Mouse-Shadow/
 - JS
 
 ### Description
-Small aplication to train Javascript methods:
+Small aplication just to train Javascript methods:
 > offsetWidth
 > 
 > offsetHeight
