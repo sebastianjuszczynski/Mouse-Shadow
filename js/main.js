@@ -1,5 +1,6 @@
 const hero = document.querySelector(".hero");
 const text = document.querySelector(".h1");
+const walk = 100;
 
 function shadow(e) {
     const { offsetWidth: width, offsetHeight: height } = hero;
@@ -9,8 +10,9 @@ function shadow(e) {
         x = x + e.target.offsetLeft;
         y = y + e.target.offsetTop;
     }
-
-    console.log(x, y)
+    const xWalk = Math.round((x / width * walk) - (walk / 2));
+    const yWalk = Math.round((y / width * walk) - (walk / 2));
+    console.log(xWalk, yWalk)
 }
 
 hero.addEventListener("mousemove", shadow);
