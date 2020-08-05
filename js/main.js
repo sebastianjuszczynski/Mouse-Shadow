@@ -12,3 +12,5 @@ function shadow(e) {
 
     console.log(x, y)
 }
+
+hero.addEventListener("mousemove", shadow);
