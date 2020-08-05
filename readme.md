@@ -21,5 +21,6 @@ Small aplication just to train Javascript methods:
 > 
 > etc...
 
+Move a mouse, please 🖰
 
 Next project from 30 days challenge by **Wes Bos**
